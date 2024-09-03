@@ -169,3 +169,15 @@ hr {
   gap: 10px;
   /* justify-content: space-between; */
 }
+.menu {
+  font-size: 12px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  padding: 0 60px;
+}
+.menu-nav {
+  text-decoration: none;
+  color: #a59d9d;
+}
