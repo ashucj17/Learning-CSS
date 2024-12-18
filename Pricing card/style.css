@@ -9,24 +9,35 @@
 
 li {
   list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .container {
+  margin: 300px auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   padding: 20px;
   background-color: #f4f2fd;
   border-radius: 15px;
 }
 
-.card {
+/* .card {
+  flex: 1;
   margin: 30px;
   width: 300px;
   height: 400px;
   text-align: left;
+  text-align: center;
+  } */
+
+.card {
+  flex: 1;
+  text-align: left;
+  max-width: 400px;
+  padding: 20px 50px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #c9c0c0;
+  box-shadow: 2px 2px 10px#c9c0c0;
 }
 
 .one {
@@ -40,4 +51,47 @@ li {
 
 .three {
   background-color: #fff;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+p {
+  line-height: 20px;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: #202842;
+  color: #fff;
+}
+
+.two > button {
+  background-color: #fff;
+  color: #202842;
+  font-weight: bolder;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-top: 15px;
+    width: 400px;
+    height: 300px;
+  }
 }
