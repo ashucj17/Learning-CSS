@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Syncopate:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f2fd;
+  border-radius: 15px;
+}
+
+.card {
+  margin: 30px;
+  width: 300px;
+  height: 400px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #c9c0c0;
+}
+
+.one {
+  background-color: #fff;
+}
+
+.two {
+  background-color: #202842;
+  color: #fff;
+}
+
+.three {
+  background-color: #fff;
+}
